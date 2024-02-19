@@ -1,0 +1,87 @@
+:root {
+    --white3-background: #ffffff;
+    --gray2-background: #ffffff33;
+    --grey2-background: #ffffff80;
+    --white2-background: #f3f3f3;
+    --white-background: #eeeeee;
+    --grey-background: #bdc1c6;
+    --pink-background: #ea9999;
+    --red-background: #d04040;
+    --black4-background: #5f6368;
+    --blac3-background: #202124bf;
+    --black2-background: #21212180;
+    --black1-background: #212121;
+    --black-background: #1c1c1c;
+    /*----------------------------*/
+    --red-text: #d04040;
+    --black-text: #000000;
+    --white-text: #f9f9f9;
+}
+
+
+body {
+    background-color: grey;
+
+    width: 100%;
+
+}
+
+.logoNV {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.pewRow {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: start;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#red {
+    background-color: var(--red-background);
+    padding: 100px 50px;
+
+}
+
+.navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 1);
+    z-index: 1000;
+}
+
+.navbar-brand {
+    margin-right: 15px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.nav-link {
+    margin-right: 10px;
+}
+
+a:hover {
+    color: pink;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+
+}
+
+.dropdown-menu {
+    background-color: rgb(40, 40, 40);
+
+}
+
+.dropdown-menu * {
+    color: white;
+    text-align: center;
+}

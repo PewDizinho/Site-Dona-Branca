@@ -1,0 +1,65 @@
+
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4,
+.bgimg-5,
+.bgimg-6 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+.bgimg-1 {
+    background-image: url("../assets/frente.png");
+    min-height: 600px;
+}
+
+.bgimg-2 {
+    background-image: url("../assets/entrada.png");
+    min-height: 600px;
+}
+
+.bgimg-3 {
+    background-image: url("../assets/banheiros.png");
+    min-height: 600px;
+}
+
+.bgimg-4 {
+    background-image: url("../assets/mesas.png");
+    background-size: 100% 100%;
+    min-height: 600px;
+}
+
+.bgimg-5 {
+    background-image: url("../assets/mesas2.png");
+    background-size: 100% 100%;
+    min-height: 600px;
+}
+
+.bgimg-6 {
+    background-image: url("../assets/informatica.png");
+    background-size: 100% 100%;
+    min-height: 600px;
+}
+
+
+.captionBG {
+    background-color: var(--red-background);
+    padding: 50px 80px;
+    text-align: justify;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}

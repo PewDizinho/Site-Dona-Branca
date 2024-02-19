@@ -1,0 +1,90 @@
+#quickacess {
+    background-color: var(--red-background);
+    padding: 50px;
+    border-radius: 15px;
+    margin: 15px;
+    margin-top: 15px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+
+h1 {
+    color: var(--white-text);
+    text-align: center;
+    margin: 15px;
+}
+
+
+.bgimg-1 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#news {
+    background-color: var(--white3-background);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+#infos {
+    display: flex;
+}
+
+.bgimg-1 {
+    background-image: url("./assets/fundodbsite.png");
+    min-height: 600px;
+}
+
+
+#box1,
+#box2,
+#box3 {
+    background-color: var(--red-background);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: start;
+    align-items: center;
+    width: fit-content;
+    padding-bottom: 10px;
+    padding: 15px 10px 10px 10px;
+    border-radius: 15px;
+    margin: 15px;
+
+}
+
+#box1 img,
+#box2 img {
+    width: 250px;
+    object-fit: fill;
+    margin-bottom: 10px;
+}
+
+#box3 {
+    width: fit-content;
+    height: fit-content;
+}
+
+#box3 img {
+    width: 1000px;
+    height: 550px;
+}
+
+#title {
+    width: 100%;
+}
