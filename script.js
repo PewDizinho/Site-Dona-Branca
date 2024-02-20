@@ -22,15 +22,15 @@ dropdowns.forEach(dropdown => {
 
 const news = {
     box1: {
-        title: "The title of the news",
-        content: "The content of the news",
+        title: "Titulo Super Bacana",
+        content: "Descrição muito dahora",
         img: "https://picsum.photos/200",
         url: "https://www.colegiodonabranca.com/institucional/espaços-físicos/sala-alternativa"
     },
 
     box2: {
-        title: "The title of the news",
-        content: "The content of the news",
+        title: "Um Titulo Mais Bacana Ainda!",
+        content: "Uma descrição ainda mais dahora",
         img: "https://picsum.photos/200",
         url: "https://www.colegiodonabranca.com/institucional/espaços-físicos/sala-alternativa"
     },
